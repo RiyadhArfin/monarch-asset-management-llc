@@ -86,13 +86,13 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="info-item">
+                        {/* <div className="info-item">
                             <MapPin className="info-icon" />
                             <div>
                                 <h3>Mailing Address</h3>
                                 <p>352 E 8th St, Apt 4F,<br />Brooklyn, NY 11218</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Contact Form */}
