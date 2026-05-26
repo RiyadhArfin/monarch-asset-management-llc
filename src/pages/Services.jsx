@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, PenTool, RefreshCw, CheckCircle, Key } from 'lucide-react';
+import { Hammer,BrushCleaning,TreePine,Heater,House,Home, PenTool, RefreshCw, CheckCircle, Key } from 'lucide-react';
 import Section from '../components/ui/Section';
 import Card from '../components/ui/Card';
 import Reveal from '../components/ui/Reveal';
@@ -14,14 +14,14 @@ import imgTurn from '../assets/images/hero-bg.png'; // Reused
 
 const detailedServices = [
     {
-        icon: <Home size={40} />,
+        icon: <House size={40} />,
         image: imgPreservation,
         title: 'Property Preservation',
         description: 'Protecting your vacant assets from deterioration and vandalism.',
         items: ['Securing & Re-keying', 'Debris Removal', 'Winterization', 'Lawn Maintenance', 'Board-ups']
     },
     {
-        icon: <PenTool size={40} />,
+        icon: <Hammer size={40} />,
         image: imgMaintenance,
         title: 'General Handyman & Repairs',
         description: 'Ongoing upkeep to ensure tenant satisfaction and asset longevity.',
@@ -41,7 +41,7 @@ const detailedServices = [
 ]
     },
     {
-        icon: <RefreshCw size={40} />,
+        icon: <BrushCleaning size={40} />,
         image: imgRenovation,
         title: 'Cleaning & Turnover Services',
         description: 'Transforming distressed properties into market-ready assets.',
@@ -53,7 +53,7 @@ const detailedServices = [
 ]
     },
     {
-        icon: <CheckCircle size={40} />,
+        icon: <TreePine size={40} />,
         image: imgInspections,
         title: 'Outdoor & Lawn Services',
         description: 'Ensuring your properties meet all local codes and safety standards.',
@@ -65,7 +65,7 @@ const detailedServices = [
 ]
     },
     {
-        icon: <Key size={40} />,
+        icon: <Heater size={40} />,
         image: imgTurn,
         title: 'Specialty Contractors & Other Services',
         description: 'Rapid turnover services to minimize vacancy periods.',
