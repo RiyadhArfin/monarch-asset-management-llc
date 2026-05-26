@@ -23,30 +23,62 @@ const detailedServices = [
     {
         icon: <PenTool size={40} />,
         image: imgMaintenance,
-        title: 'Property Maintenance',
+        title: 'General Handyman & Repairs',
         description: 'Ongoing upkeep to ensure tenant satisfaction and asset longevity.',
-        items: ['Emergency Repairs', 'Plumbing & Electrical', 'HVAC Service', 'Pest Control', 'Janitorial Services']
+        items: [
+  "Drywall & painting",
+  "Carpentry repairs",
+  "Flooring repair & installation",
+  "Window & door repairs",
+  "Fence & gate repair",
+  "Gutter cleaning & minor repairs",
+  "Appliance installation & repair",
+  "Electrical & plumbing repairs",
+  "Garage door repair",
+  "Exterior maintenance",
+  "Lock changes & property securing",
+  "Damage restoration & mold remediation"
+]
     },
     {
         icon: <RefreshCw size={40} />,
         image: imgRenovation,
-        title: 'Renovation & Remodeling',
+        title: 'Cleaning & Turnover Services',
         description: 'Transforming distressed properties into market-ready assets.',
-        items: ['Full Rehabilitations', 'Kitchen & Bath Upgrades', 'Flooring & Paint', 'Roofing & Siding', 'Structural Repairs']
+        items: [
+  "Full turnover & trash-out cleaning",
+  "Common area & carpet cleaning",
+  "Pressure washing",
+  "Air duct cleaning"
+]
     },
     {
         icon: <CheckCircle size={40} />,
         image: imgInspections,
-        title: 'Inspections & Compliance',
+        title: 'Outdoor & Lawn Services',
         description: 'Ensuring your properties meet all local codes and safety standards.',
-        items: ['Occupancy Checks', 'Code Compliance Audits', 'Safety Inspections', 'Damage Assessments', 'Insurance Claims Support']
+        items: [
+  "Lawn care & yard cleanup",
+  "Snow removal",
+  "Landscaping & gardening",
+  "Tree & shrubs Trimming"
+]
     },
     {
         icon: <Key size={40} />,
         image: imgTurn,
-        title: 'Tenant Turn Services',
+        title: 'Specialty Contractors & Other Services',
         description: 'Rapid turnover services to minimize vacancy periods.',
-        items: ['Move-out Inspections', 'Deep Cleaning', 'Punch-list Repairs', 'Lock Changes', 'Painting & Touch-ups']
+        items: [
+  "Minor Electrician",
+  "Minor plumbing",
+  "Painter",
+  "Pool & hot tub services",
+  "Minor Roofing & tile work",
+  "Glass & mirrors",
+  "HVAC services",
+  "Hauling & Trash removal"
+]
     }
 ];
 
