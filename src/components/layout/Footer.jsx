@@ -47,9 +47,9 @@ const Footer = () => {
                             <MapPin size={18} className="info-icon" />
                             <span>3400 Cottage Way, Suite G2, Sacramento, CA 95825</span>
                         </li>
-                        <li className="mailing-address">
+                        {/* <li className="mailing-address">
                             <span>Mailing: 352 E 8th St, Apt 4F, Brooklyn, NY 11218</span>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
